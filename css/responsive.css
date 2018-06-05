@@ -12,9 +12,15 @@
     .section-headers hr {
         width: 10%;
     }
+    #menu ul {
+        margin: 20px 90px 0 0;;
+    }
 }
 
 @media all and (max-width: 768px) {
+    #menu {
+        position: relative;
+    }
     #mobile-menu {
         display: block;
         text-align: right;
@@ -22,13 +28,20 @@
         padding-right: 20px;
         padding-left: 20px;
         line-height: 40px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        cursor: pointer;
     }
     #menu ul {
         display: none;
         margin: 0;
+        text-align: center;
+        padding-right: 30px;
     }
     .menu-item {
         margin: 0;
+        margin-top: 20px;
     }
     #menu #menu-button:checked + ul {
         display: block;
@@ -64,9 +77,26 @@
     #form textarea {
         margin-top: 0;
     }
+    #footer a {
+        font-size: 20px;
+    }
 }
 
 @media all and (max-width: 576px) {
+    #menu ul {
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .menu-item {
+        display: block;
+        margin: 0;
+        padding: 0;
+        line-height: 30px;
+    }
+    #header-text {
+        top: 60%;
+    }
     .opinions-container {
         padding-bottom: 40px;
         margin-left: 15px;
@@ -75,5 +105,8 @@
     }
     .opinions-text {
         float: none;
+    }
+    #footer a {
+        font-size: 16px;
     }
 }

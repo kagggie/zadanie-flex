@@ -360,7 +360,7 @@ textarea::placeholder {
     width: 80%;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -370,8 +370,7 @@ textarea::placeholder {
     text-decoration: none;
     color: white;
     font-size: 22px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px;
 }
 
 #footer a:hover {
